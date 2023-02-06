@@ -1,0 +1,53 @@
+.bottom__paragraph {
+   font-size: .9rem;
+   color: var(--Pale-Blue);
+   font-weight: 400;
+   text-align: center;
+
+   @media (min-width: 50em) {
+      text-align: left;
+   }
+
+   &--span {
+      font-weight: 700;
+   }
+
+   &--1,
+   &--2 {
+      font-size: .8rem;
+      font-weight: 700;
+      color: var(--Pale-Blue);
+   }
+}
+
+
+.bottom__paragraph--main {
+   font-size: .8rem;
+   font-weight: 400;
+   color: var(--Grayish-Blue);
+   text-transform: uppercase;
+
+   @media (min-width: 50em) {
+      font-size: .7rem;
+      padding: .2rem;
+   }
+
+   @media (min-width: 62.5em) {
+      font-size: .7rem;
+   }
+
+   &__span {
+      color: var(--Very-Dark-Blue);
+      font-size: 3rem;
+      font-weight: 700;
+
+      @media (min-width: 50em) {
+         font-size: 2rem;
+      }
+
+      @media (min-width: 62.5em) {
+         font-size: rem;
+      }
+   }
+
+}
