@@ -1,53 +1,56 @@
-.bottom__paragraph {
-   font-size: .9rem;
-   color: var(--Pale-Blue);
-   font-weight: 400;
-   text-align: center;
+.intro {
 
-   @media (min-width: 50em) {
-      text-align: left;
+   &__title {
+      color: var(--Grayish-Blue);
+      font-size: 1.5rem;
+      text-align: center;
+      margin-bottom: 1rem;
+      font-weight: 400;
    }
 
-   &--span {
-      font-weight: 700;
+   &__title--span {
+      color: var(--Very-Dark-Blue);
+      display: block;
+      font-weight: 600;
+      font-size: 1.55rem;
    }
 
-   &--1,
-   &--2 {
-      font-size: .8rem;
-      font-weight: 700;
-      color: var(--Pale-Blue);
+   &__paragraph {
+      color: var(--Grayish-Blue);
+      text-align: center;
+      font-size: 1rem;
+      margin-bottom: var(--spacer);      
    }
+
+   @media (min-width: 31.25em) {
+      max-width: 32rem;
+      margin: 0 auto;
+   }
+
+     @media (min-width: 50em) {
+      max-width: 35rem;
+      }
+
 }
 
+.card {
 
-.bottom__paragraph--main {
-   font-size: .8rem;
-   font-weight: 400;
-   color: var(--Grayish-Blue);
-   text-transform: uppercase;
-
-   @media (min-width: 50em) {
-      font-size: .7rem;
-      padding: .2rem;
-   }
-
-   @media (min-width: 62.5em) {
-      font-size: .7rem;
-   }
-
-   &__span {
+   &__title--1,
+   &__title--2,
+   &__title--3,
+   &__title--4 {
       color: var(--Very-Dark-Blue);
-      font-size: 3rem;
-      font-weight: 700;
+      font-weight: 600;
+      margin-bottom: .8rem;
+   }
 
-      @media (min-width: 50em) {
-         font-size: 2rem;
-      }
-
-      @media (min-width: 62.5em) {
-         font-size: rem;
-      }
+   &__paragraph--1,
+   &__paragraph--2,
+   &__paragraph--3,
+   &__paragraph--4 {
+      color: var(--Grayish-Blue);
+      font-size: .9rem;
+      font-weight: 400;
    }
 
 }

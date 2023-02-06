@@ -1,16 +1,20 @@
 :root {
-  --Pale-Blue: hsl(243, 100%, 93%);
-  --Grayish-Blue: hsl(229, 7%, 55%);
-  --Dark-Blue: hsl(228, 56%, 26%);
-  --Very-Dark-Blue: hsl(229, 57%, 11%);
-  --Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
- --first-color: hsl(6, 100%, 80%);
- --second-color: hsl(335, 100%, 65%);
- --ff-primary:'Raleway', sans-serif;
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+
+  --Very-Dark-Blue: hsl(234, 12%, 34%);
+  --Grayish-Blue: hsl(229, 6%, 66%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+
+ --ff-primary:'Poppins', sans-serif;
 
  --spacer: 3rem;
- 
-  --br: .5rem;
+  --fs-400: .8125rem;
+  --fs-600: .9625rem;
+
+  --br: .3rem;
 }
 
 
